@@ -103,7 +103,31 @@
 
 ---
 
-## TDD?
+## Test Driven Development (TDD)
+
+<svg class="tdd-cycle" viewBox="-90 0 780 450" role="img" aria-label="TDD cycle: start by writing a failing test to get to Red; make it pass to get to Green; clean up to Refactor; choose next scenario to get back to Red">
+<defs><marker id="tdd-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+<g fill="none" stroke="#888" stroke-width="4" marker-end="url(#tdd-arrow)">
+<path d="M354,172 Q421,199 413,254"/>
+<path d="M385,350 Q300,410 215,350"/>
+<path d="M184,258 Q179,199 244,176"/>
+<path d="M30,105 Q120,35 214,80"/>
+</g>
+<g text-anchor="middle" fill="#fff">
+<circle cx="300" cy="100" r="80" fill="#d9363e"/>
+<text x="300" y="111" font-size="30" font-weight="bold">RED</text>
+<circle cx="470" cy="330" r="80" fill="#2e9e5b"/>
+<text x="470" y="341" font-size="30" font-weight="bold">GREEN</text>
+<circle cx="130" cy="330" r="80" fill="#1EAEE9"/>
+<text x="130" y="339" font-size="24" font-weight="bold">REFACTOR</text>
+</g>
+<g fill="#555" font-size="19">
+<text x="112" y="46" text-anchor="middle">write a failing test</text>
+<text x="168" y="208" text-anchor="end">choose next scenario</text>
+<text x="432" y="208" text-anchor="start">make it pass</text>
+<text x="300" y="440" text-anchor="middle">clean up</text>
+</g>
+</svg>
 
 ---
 
