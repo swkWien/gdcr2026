@@ -13,6 +13,16 @@
 
 ---
 
+## Rough Shape of Our Day
+
+* 9:00 Kicking it off
+* 12:45 (approx.) Lunch
+* 17:00 End
+
+(opt.) After party
+
+---
+
 ## How Does It Work?
 
 - 5 Sessions +/- 45min
@@ -144,6 +154,12 @@
 ## Why Do We<br>Care About Code?
 
 <small>Although it's 2026?</small>
+
+---
+
+## That's Why ...
+- Before lunch: no AI
+- In the afternoon: optional AI
 
 ---
 
