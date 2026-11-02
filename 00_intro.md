@@ -1,12 +1,6 @@
-## Welcome to the<br>Global Day of Coderetreat 2026
+## Welcome to the<br>Global Day of Coderetreat 2026 Vienna @SQUER
 
-Vienna @SQUER
-
----
-
-## GDCR 2026
-
-[GDCR2026.pptx](file:///Users/paulroho/Documents/GDCR2025.pptx)
+(Show Powerpoint instead)
 
 ---
 
@@ -15,13 +9,13 @@ Vienna @SQUER
 - We care about code (still)
 - We want to learn
 - We want to have fun
-- It is not about finishing
+- It is *not* about finishing
 
 ---
 
 ## How Does It Work?
 
-- 5 Sessions +/- 45min of pairing
+- 5 Sessions +/- 45min
 - Each session
   - revolves around the same domain
   - is about a specific topic/focus
@@ -40,9 +34,72 @@ Vienna @SQUER
 
 ---
 
-## This Year's Domain: Tetris
+## This Year's Domain:<br>Tetris
 
-(hand out)
+<div class="tetris-steps">
+<div class="tetris-step">
+<h3>A piece falls</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="t"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>You steer it</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>Full rows vanish</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="e"></i>
+<i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i>
+<i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>Don’t reach the top</h3>
+<div class="tetris-board tetris-over">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i>
+<i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+</div>
+</div>
+</div>
+
+<small>Handout: [How Tetris Works (PDF)](how-tetris-works.pdf)</small>
 
 ---
 

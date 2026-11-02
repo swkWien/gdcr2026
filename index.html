@@ -5,6 +5,18 @@
   <title>GDCR 2026 Vienna</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/simple.css">
+  <style>
+    .tetris-steps { display: flex; justify-content: center; gap: 30px; }
+    .tetris-step h3 { font-size: 0.6em; margin-bottom: 0.5em; }
+    .tetris-board { display: grid; grid-template-columns: repeat(8, 22px); gap: 2px; padding: 4px; box-shadow: inset 0 0 0 1px rgb(159,159,159); }
+    .tetris-board.tetris-over { box-shadow: inset 0 0 0 2px rgb(255,107,182); }
+    .tetris-board i { width: 22px; height: 22px; background: rgb(227,227,227); }
+    .tetris-board i.a { background: #1EAEE9; }
+    .tetris-board i.s { background: rgb(118,118,118); }
+    .tetris-board i.t { background: rgba(30,174,233,0.25); }
+    .tetris-board i.g { box-shadow: inset 0 0 0 2px #1EAEE9; }
+    .tetris-board i.c { background: rgb(29,201,158); }
+  </style>
 </head>
 <body>
   <div class="reveal">
