@@ -18,17 +18,76 @@ Facilitator: Christoph Kober [@kober@hachyderm.io](https://hachyderm.io/@kober)
 
 ### Tetris Details
 
-- The seven **tetrominoes** are I, J, L, O, S, T, and Z
-- In the grid, usually 10 wide and 20 tall, tetrominoes fall from the top and are placed at the bottom.
-- When a row is completely filled, it clears, causing the blocks above it to shift downward.
-- Players control tetrominoes' horizontal movement and rotate them to fit better into spaces.
-- The game ends when a new tetromino can no longer fit into the grid because the stack of blocks has reached the top.
+<div class="tetris-steps">
+<div class="tetris-step">
+<h3>A piece falls</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="t"></i><i class="t"></i><i class="t"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="t"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>You steer it</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="g"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>Full rows vanish</h3>
+<div class="tetris-board">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="e"></i>
+<i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i>
+<i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i><i class="c"></i>
+</div>
+</div>
+<div class="tetris-step">
+<h3>Don’t reach the top</h3>
+<div class="tetris-board tetris-over">
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="e"></i><i class="e"></i><i class="e"></i><i class="a"></i><i class="a"></i><i class="e"></i><i class="e"></i><i class="e"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i>
+<i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i>
+<i class="s"></i><i class="s"></i><i class="e"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i><i class="s"></i>
+</div>
+</div>
+</div>
 
 ---
 
 ### The seven Tetrominoes
 
-![https://en.wikipedia.org/wiki/Tetris#/media/File:Tetrominoes_IJLO_STZ_Worlds.svg](./images/tetrominoes.png)
+<a href="https://en.wikipedia.org/wiki/Tetris#/media/File:Tetrominoes_IJLO_STZ_Worlds.svg">
+    <img src="./images/tetrominoes.png" width="75%">
+</a>
 
 ---
 
