@@ -62,7 +62,21 @@ A pattern where you replace a production object for testing purposes
 
 ## Your collaborators 🗼
 
-TODO: the given interfaces
+```typescript
+interface PieceGenerator {
+    /** The next piece to drop */
+    next(): Piece
+}
+```
+
+```typescript
+interface Display {
+    /** Draw the current state of the board */
+    show(board: Board): void
+}
+```
+
+*Or write your own.*
 
 ---
 
