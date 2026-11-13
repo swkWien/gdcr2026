@@ -6,14 +6,16 @@ Facilitator: Gregor Riegler
 
 ---
 
-## Constraint
+<!-- .slide: class="constraint" -->
 
-- Ship the thinnest slice you can think of
-  - slice = working, end-to-end functionality that delivers something a user can use
-- Fast tests prove the game works
+## Constraint 🍰
+
+- Ship the **thinnest slice** you can think of
+  - slice = working, end-to-end functionality a user can use
+- **Fast tests** prove the game works
   - test the game, not its parts
-- No mocks
-- Anyone can read the tests and understand the game
+- The tests **explain the game** well
+- **No mocks**
 
 ---
 
