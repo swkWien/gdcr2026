@@ -9,8 +9,16 @@
 * Today’s PoV: really?
 -->
 
-Image: CD or CD-Player
-Animation: blend to Color TV (maybe simple tech of analog color tv)
+<div class="r-stack">
+  <figure class="slide-img fragment fade-out" data-fragment-index="1">
+    <img src="./images/sony-cdp-101.jpg">
+    <figcaption class="img-credit">Sony CDP-101, the first commercial CD player, 1982 – Photo: Atreyu, <a href="https://commons.wikimedia.org/wiki/File:CDP101a.jpg">Wikimedia Commons</a>, CC BY 3.0</figcaption>
+  </figure>
+  <figure class="slide-img fragment fade-in" data-fragment-index="1">
+    <img src="./images/color-tv-elektron-706.jpg">
+    <figcaption class="img-credit">Elektron-706 colour TV, 1973 – Photo: Valery Kharchenko, <a href="https://commons.wikimedia.org/wiki/File:Elektron706.jpg">Wikimedia Commons</a>, CC0</figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -19,14 +27,31 @@ Animation: blend to Color TV (maybe simple tech of analog color tv)
 * Complexity of everyday systems skyrocketed within the lifetime of a human
 -->
 
-Image: Complexity of software (layers on layers, abstractions, ...)
+<figure class="slide-img">
+  <img src="./images/mediawiki-infrastructure-2022.png" class="full-width">
+  <figcaption class="img-credit">MediaWiki infrastructure (Wikipedia), August 2022 – Timo Tijhof, <a href="https://commons.wikimedia.org/wiki/File:MediaWiki_infrastructure_2022.png">Wikimedia Commons</a>, CC0</figcaption>
+</figure>
 
 ---
 
 ### How did we manage to reach this?
 <small>Software is supposed to be soft</small>
 
-Image: something soft (besides software)
+<div class="side-by-side">
+  <ul>
+    <li>Increased hardware capabilities</li>
+    <li>Easy to copy</li>
+    <li>We build our own tools</li>
+    <li>Abstractions</li>
+    <li>Small increments</li>
+    <li>Feedback</li>
+    <li>A lot of users</li>
+  </ul>
+  <figure class="slide-img">
+    <img src="./images/white-feather.jpg">
+    <figcaption class="img-credit">Photo: João Estevão A. de Freitas, <a href="https://commons.wikimedia.org/wiki/File:A_single_white_feather_closeup.jpg">Wikimedia Commons</a>, public domain</figcaption>
+  </figure>
+</div>
 
 <!--
 * It's software
@@ -39,18 +64,11 @@ Image: something soft (besides software)
 
 ---
 
-* We build our own tools
-* Easy to copy
-* Increased hardware capabilities
-* Abstractions
-* Small increments
-* Feedback
-* A lot of users
-
----
-
 ### Complexity
-Image: xkcd complexity
+<figure class="slide-img">
+  <img src="./images/xkcd-2347-dependency.png">
+  <figcaption class="img-credit">“Dependency” – Randall Munroe, <a href="https://xkcd.com/2347/">xkcd.com/2347</a>, CC BY-NC 2.5</figcaption>
+</figure>
 
 <!--
 * Looking back to evolution of software
@@ -89,15 +107,44 @@ Image: xkcd complexity
 
 ---
 
-### What we get paid for is expressed in our code
-* That's why we care about it
+### What Our Users Care About
+<small>and what we get paid for</small>
+
+* Is defined in our code
+* Is expressed in our code
+* Has to be changed in our code
 
 ---
 
 ### Agentic coding
-* might spare us dealing with every minor detail in every case
-* will not spare us managing this
-* produces so much code
-* Speed is way beyond human comprehension
-  * How do we know it works?
-  * Do we still care about maintainability?
+
+<div class="side-by-side">
+  <ul>
+    <li>Might spare us the details</li>
+    <li>Still needs managing</li>
+    <li></li>
+    <li class="fragment">Produces so much code</li>
+    <li class="fragment">Needs even more managing!</li>
+    <!-- <li>Speed is way beyond human comprehension
+      <ul>
+        <li>How do we know it works?</li>
+        <li>Do we still care about maintainability?</li>
+      </ul>
+    </li> -->
+  </ul>
+  <figure class="slide-img">
+    <img src="./images/darpa-robot.jpg">
+    <figcaption class="img-credit">Humanoid robot “Johnny 05”, DARPA Robotics Challenge 2015 – Photo: DARPA, <a href="https://commons.wikimedia.org/wiki/File:Roboter_Johnny_05_DARPA_Robotics_Challenge_2015_compressed.jpg">Wikimedia Commons</a>, public domain</figcaption>
+  </figure>
+</div>
+
+---
+
+### What Our Users Care About
+<small>and what we get paid for</small>
+
+* Is defined in our code
+* Is expressed in our code
+* Has to be changed in our code
+
+<p class="punchline fragment">That's why we care about it!</p>
