@@ -99,10 +99,12 @@ Build and test your unit without implementing its collaborators
 
 ## Retrospective 🏟️
 
-* What was your **first test**?
-* **Fake, stub, spy, mock** – which did you use, and where?
-* Where did a double make you **faster**?
-* Who wrote a **test for a fake**?
+<ul>
+<li><span class="fragment">What was your <strong>first test</strong>?</span></li>
+<li><span class="fragment"><strong>Fake, stub, spy, mock</strong> – which did you use, and where?</span></li>
+<li><span class="fragment">Where did a double make you <strong>faster</strong>?</span></li>
+<li><span class="fragment">Who wrote a <strong>test for a fake</strong>?</span></li>
+</ul>
 
 ---
 
