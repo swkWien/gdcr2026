@@ -6,11 +6,16 @@ Facilitator: Gregor Riegler
 
 ---
 
-## Constraint
+<!-- .slide: class="constraint" -->
 
-- Ship the smallest thing you can think of
-- Acceptance tests prove that it works
-- No mocks
+## Constraint 🍰
+
+- Ship the **thinnest slice** you can think of
+  - slice = working, end-to-end functionality a user can use
+- **Fast tests** prove the game works
+  - test the game, not its parts
+- The tests **explain the game** well
+- **No mocks**
 
 ---
 
