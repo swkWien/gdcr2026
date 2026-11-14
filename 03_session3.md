@@ -76,7 +76,7 @@ interface Display {
 }
 ```
 
-*Or write your own.*
+*Or write your own.* <!-- .element: class="fragment" -->
 
 ---
 
