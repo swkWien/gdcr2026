@@ -1,6 +1,9 @@
 ## Welcome to the<br>Global Day of Coderetreat 2026 Vienna @SQUER
 
-(Show Powerpoint instead)
+[insights.squer.io/gdcr-2026](https://insights.squer.io/gdcr-2026)
+
+[swkwien.github.io/gdcr2026](https://swkwien.github.io/gdcr2026/)
+
 
 ---
 
