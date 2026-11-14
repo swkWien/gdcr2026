@@ -9,6 +9,8 @@
 * Today’s PoV: really?
 -->
 
+### How It Started (For Me)
+
 <div class="r-stack">
   <figure class="slide-img fragment fade-out" data-fragment-index="1">
     <img src="./images/sony-cdp-101.jpg">
@@ -26,6 +28,8 @@
 * Every single software system today is way more complicated
 * Complexity of everyday systems skyrocketed within the lifetime of a human
 -->
+
+### Today's Normal?
 
 <figure class="slide-img">
   <img src="./images/mediawiki-infrastructure-2022.png" class="full-width">
@@ -107,30 +111,14 @@
 
 ---
 
-### What Our Users Care About
-<small>and what we get paid for</small>
-
-* Is defined in our code
-* Is expressed in our code
-* Has to be changed in our code
-
----
-
 ### Agentic coding
 
 <div class="side-by-side">
   <ul>
-    <li>Might spare us the details</li>
-    <li>Still needs managing</li>
-    <li></li>
-    <li class="fragment">Produces so much code</li>
-    <li class="fragment">Needs even more managing!</li>
-    <!-- <li>Speed is way beyond human comprehension
-      <ul>
-        <li>How do we know it works?</li>
-        <li>Do we still care about maintainability?</li>
-      </ul>
-    </li> -->
+    <li>Spares us the typing, not the thinking</li>
+    <li class="fragment">Produces code faster than we can understand it</li>
+    <li class="fragment">More code → more complexity</li>
+    <li class="fragment"><strong>Code nobody understands is complexity nobody manages</strong></li>
   </ul>
   <figure class="slide-img">
     <img src="./images/darpa-robot.jpg">
@@ -138,6 +126,15 @@
   </figure>
 </div>
 
+<!--
+* Earlier tools (compilers, frameworks, orchestration) absorbed complexity behind abstractions
+* Agents mostly add code that someone still has to own
+* Speed is way beyond human comprehension
+  * How do we know it works?
+  * Do we still care about maintainability?
+* Managing = understanding, verifying, keeping it changeable
+-->
+
 ---
 
 ### What Our Users Care About
@@ -147,4 +144,24 @@
 * Is expressed in our code
 * Has to be changed in our code
 
-<p class="punchline fragment">That's why we care about it!</p>
+<!--
+* That's where the complexity lives – and the value
+* With or without agents: it ends up in code
+-->
+
+---
+
+<p class="thesis">Complexity doesn't go away.</p>
+<p class="thesis fragment">It keeps growing.</p>
+<p class="thesis fragment">That's why we have to manage it.</p>
+
+<p class="thesis bridge fragment punchline">Managing complexity is a skill.<br>Skills need practice.</p>
+
+<!--
+* Callback: "How did we manage to reach this?" – by managing complexity
+* Bridge to the rules of the day (next slide): train the muscle yourself first
+-->
+
+---
+
+<p class="thesis bridge punchline">Welcome to the Global Day of <br/>Coderetreat!</p>
