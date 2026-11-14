@@ -1,6 +1,9 @@
 ## Welcome to the<br>Global Day of Coderetreat 2026 Vienna @SQUER
 
-(Show Powerpoint instead)
+[insights.squer.io/gdcr-2026](https://insights.squer.io/gdcr-2026)
+
+[swkwien.github.io/gdcr2026](https://swkwien.github.io/gdcr2026/)
+
 
 ---
 
@@ -20,54 +23,3 @@
 * 17:00 End
 
 (opt.) After party
-
----
-
-## How Does It Work?
-
-- 5 Sessions +/- 45min
-- Each session
-  - revolves around the same domain
-  - is about a specific topic/focus
-  - has its own facilitator
-  - stands on its own
-
----
-
-## The Mode of Each Session
-
-- Introduction by the Facilitator
-- We work in pairs/triples
-- We do TDD (Test Driven Development)
-- At the end, we delete the code
-- Reflection on this session
-
----
-
-## Our Facilitators
-
-- Christoph Kober
-- Daniel Ranner
-- Adam Zielinski
-- Gregor Riegler
-- Claus Aichinger
-
----
-
-## Why Do We<br>Care About Code?
-
-<small>Although it's 2026?</small>
-
----
-
-## That's Why ...
-- Before lunch: no AI
-- In the afternoon: optional AI
-
----
-
-## Questions?
-
----
-
-## Let's Have a Great Day!
