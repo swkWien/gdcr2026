@@ -19,12 +19,28 @@
     .tetris-board i.c { background: rgb(29,201,158); }
     .tdd-cycle { width: 720px; height: auto; }
     .constraint ul ul { list-style: none; font-size: 0.8em; color: #777; margin-bottom: 0.4em; }
+    .reveal figure.slide-img { margin: 0; display: flex; flex-direction: column; align-items: center; }
+    .reveal figure.slide-img img { max-height: 470px; max-width: 100%; width: auto; margin: 0; }
+    .reveal .img-credit { font-size: 0.3em; color: #888; margin-top: 0.4em; }
+    .reveal .img-credit a { color: #888; text-decoration: underline; }
+    .reveal figure.slide-img img.full-width { width: 100%; max-height: 560px; }
+    .reveal .thesis { font-size: 1.3em; margin: 0.3em 0; }
+    .reveal .thesis.bridge { margin-top: 1.6em; }
+    .reveal .punchline { margin-top: 1.2em; font-size: 1.6em; font-weight: bold; color: #1EAEE9; }
+    .reveal .side-by-side { display: flex; align-items: center; justify-content: center; gap: 1.5em; }
+    .reveal .side-by-side ul { flex: 1 1 55%; margin: 0; }
+    .reveal .side-by-side figure.slide-img { flex: 0 1 40%; }
+    .reveal .side-by-side figure.slide-img img { max-height: 440px; }
   </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
-      <section><section data-markdown="00_intro.md"></section></section>
+      <section>
+        <section data-markdown="00_intro.md"></section>
+        <section data-markdown="00a_why-care-about-code.md"></section>
+        <section data-markdown="00b_intro-closing.md"></section>
+      </section>
       <section><section data-markdown="01_session1.md"></section></section>
       <section><section data-markdown="02_session2.md"></section></section>
       <section><section data-markdown="03_session3.md"></section></section>
