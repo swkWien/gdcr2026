@@ -43,12 +43,12 @@ A pattern where you replace a production object for testing purposes
 
 <div style="font-size: 90%;">
 
-* Provide a specific response to a method call
-  * **Stubs**: no implementation, predefined answers
-  * **Fakes**: working implementation, oversimplified
-* Verify the behavior of the code under test
-  * **Spy**: records how it was called
-  * **Mock**: defines expectations of how it will be used
+* <span class="fragment" data-fragment-index="2">Provide a specific response to a method call</span> <!-- .element: class="fragment" data-fragment-index="1" -->
+  * **Stubs**: <span class="fragment" data-fragment-index="2">no implementation, predefined answers</span>
+  * **Fakes**: <span class="fragment" data-fragment-index="2">working implementation, oversimplified</span>
+* <span class="fragment" data-fragment-index="2">Verify the behavior of the code under test</span> <!-- .element: class="fragment" data-fragment-index="1" -->
+  * **Spy**: <span class="fragment" data-fragment-index="2">records how it was called</span>
+  * **Mock**: <span class="fragment" data-fragment-index="2">defines expectations of how it will be used</span>
 
 </div>
 
@@ -102,6 +102,7 @@ Build and test your unit without implementing its collaborators
 * What was your **first test**?
 * **Fake, stub, spy, mock** – which did you use, and where?
 * Where did a double make you **faster**?
+* Who wrote a **test for a fake**?
 
 ---
 
