@@ -6,5 +6,5 @@
 
 ## Closing (Popcorn)
 
-- What techniques help you when using AI?
+- What techniques helped you when using AI?
 - What are the critical areas when working with AI? How will you handle it next Monday?
